@@ -12,7 +12,7 @@ node {
     println("Current Directory: " + rootDir)
 
 
-      def test = load "${rootDir}/hello.groovy"
+      def test = load "${rootDir}/helloworld.groovy"
           test.hello()
     
 }
